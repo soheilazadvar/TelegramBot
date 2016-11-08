@@ -1,7 +1,0 @@
-pycurl
-urllib
-random
-time
-json
-urllib2
-re

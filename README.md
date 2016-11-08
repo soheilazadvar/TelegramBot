@@ -1,2 +1,0 @@
-# TelegramBot
-just for fun
