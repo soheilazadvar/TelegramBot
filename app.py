@@ -4,8 +4,9 @@ from threading import Thread
 from telegram import Bot
 from telegram.ext import Dispatcher, CommandHandler, MessageHandler, Updater, Filters
 
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-                    level=logging.INFO)
+logging.basicConfig(
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    level=logging.INFO)
 logger = logging.getLogger(__name__)
 TOKEN = 'YOUR-TELEGRAM-BOT-TOKEN'
 
@@ -24,6 +25,7 @@ def echo(bot, update):
 
 def error(bot, update, error):
     logger.warning('Update "%s" caused error "%s"' % (update, error))
+
 
 # Write your handlers here
 
