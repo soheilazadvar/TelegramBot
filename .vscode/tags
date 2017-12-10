@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Bot	../app.py	/^from telegram import Bot$/;"	kind:namespace	line:4
+CommandHandler	../app.py	/^from telegram.ext import Dispatcher, CommandHandler, MessageHandler, Updater, Filters$/;"	kind:namespace	line:5
+Dispatcher	../app.py	/^from telegram.ext import Dispatcher, CommandHandler, MessageHandler, Updater, Filters$/;"	kind:namespace	line:5
+Filters	../app.py	/^from telegram.ext import Dispatcher, CommandHandler, MessageHandler, Updater, Filters$/;"	kind:namespace	line:5
+MessageHandler	../app.py	/^from telegram.ext import Dispatcher, CommandHandler, MessageHandler, Updater, Filters$/;"	kind:namespace	line:5
+Queue	../app.py	/^from queue import Queue$/;"	kind:namespace	line:2
+TOKEN	../app.py	/^TOKEN = 'YOUR-TELEGRAM-BOT-TOKEN'$/;"	kind:variable	line:10
+Thread	../app.py	/^from threading import Thread$/;"	kind:namespace	line:3
+Updater	../app.py	/^from telegram.ext import Dispatcher, CommandHandler, MessageHandler, Updater, Filters$/;"	kind:namespace	line:5
+app.py	../app.py	1;"	kind:file	line:1
+echo	../app.py	/^def echo(bot, update):$/;"	kind:function	line:21
+error	../app.py	/^def error(bot, update, error):$/;"	kind:function	line:25
+help	../app.py	/^def help(bot, update):$/;"	kind:function	line:17
+level	../app.py	/^                    level=logging.INFO)$/;"	kind:variable	line:8
+logger	../app.py	/^logger = logging.getLogger(__name__)$/;"	kind:variable	line:9
+logging	../app.py	/^import logging$/;"	kind:namespace	line:1
+setup	../app.py	/^def setup(webhook_url=None):$/;"	kind:function	line:31
+start	../app.py	/^def start(bot, update):$/;"	kind:function	line:13
